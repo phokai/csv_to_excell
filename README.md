@@ -58,7 +58,3 @@ Bu araç sayesinde, bu tür verileri Excel formatına dönüştürerek daha kola
 CSV dosyalarını basit grafik arayüz ile Excel dosyasına dönüştürebilirsiniz.
 
 ![Program Arayüzü](img/arayuz.png)
-
-## Lisans
-
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
