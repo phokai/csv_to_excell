@@ -29,7 +29,7 @@ Bu araç sayesinde, bu tür verileri Excel formatına dönüştürerek daha kola
 1. Bu projeyi klonlayın veya indirin:
 
    ```sh
-   git clone https://github.com/kullaniciadi/csv_to_excel_converter.git
+   git clone https://github.com/phokai/csv_to_excell.git
    cd csv_to_excel_converter
    ```
 
@@ -37,24 +37,29 @@ Bu araç sayesinde, bu tür verileri Excel formatına dönüştürerek daha kola
 
    ```sh
    pip install pandas openpyxl
+
    ```
 
 3. Uygulamayı derleyin:
    - macOS için:
      ```sh
-     pyinstaller --windowed --name="CSV_Excel_Donusturucu" --noconsole --icon=icons/app_icon.icns "csv_to_excell.py"
+     pyinstaller --windowed --name="CSV_Excel_Donusturucu" --noconsole --icon=img/app_icon.icns "csv_to_excell.py"
      ```
    - Windows için:
      ```sh
-     pyinstaller --windowed --name="CSV_Excel_Donusturucu" --noconsole --icon=icons/app_icon.ico "csv_to_excell.py"
+     pyinstaller --windowed --name="CSV_Excel_Donusturucu" --noconsole --icon=img/app_icon.ico "csv_to_excell.py"
      ```
    - Linux için:
      ```sh
-     pyinstaller --windowed --name="CSV_Excel_Donusturucu" --noconsole --icon=icons/app_icon.ico "csv_to_excell.py"
+     pyinstaller --windowed --name="CSV_Excel_Donusturucu" --noconsole --icon=img/app_icon.ico "csv_to_excell.py"
      ```
 
 ## Kullanım
 
-CSV dosyalarını basit grafik arayüz ile Excel dosyasına dönüştürebilirsiniz.
+CSV veya HTML dosyalarını basit grafik arayüz ile Excel dosyasına dönüştürebilirsiniz.
 
 ![Program Arayüzü](img/arayuz.png)
+
+1. "CSV Dosyasını Seçin" veya "HTML Dosyasını Seçin" butonuna tıklayın ve dosyayı seçin.
+2. Dönüştürme işlemi otomatik olarak başlayacaktır.
+3. Dönüştürme işlemi tamamlandığında, "Dönüştürme Tamamlandı" mesajı görüntülenecektir.
